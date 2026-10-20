@@ -1,0 +1,15 @@
+{
+  "name": "subtitle-roundtrip",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CueBridge: local SRT and WebVTT translation round-tripping with strict IDs and preserved timing.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "npm run test && npm run build"
+  },
+  "license": "MIT"
+}

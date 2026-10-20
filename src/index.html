@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{description}}">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light">
+<!-- CSP -->
+<title>{{pageTitle}}</title>
+<!-- STYLE -->
+</head>
+<body>
+<header class="header"><a class="brand" href="#"><span class="brand-icon" aria-hidden="true">c<span>b</span></span><span>CueBridge<small>BY NYXORBIT</small></span></a><nav><span class="local"><i aria-hidden="true"></i>{{local}}</span><a href="{{languageUrl}}" lang="{{otherLang}}">{{switchLanguage}}</a><a href="https://github.com/NyxorbitHQ/subtitle-roundtrip" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav></header>
+<main>
+<section class="hero"><div><p class="eyebrow">{{eyebrow}}</p><h1>{{hero}}</h1><p class="intro">{{intro}}</p><div class="features"><span>{{feature1}}</span><span>{{feature2}}</span><span>{{feature3}}</span></div></div><div class="cue-art" aria-hidden="true"><div class="time">00:01.000 <span>→</span> 00:03.200</div><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-tags"><span>cue-000001</span><b>source → translation</b></div></div></section>
+<div class="workflow"><strong>{{workflowTitle}}</strong><span>{{workflowText}}</span></div>
+<div class="toolbar"><div><button id="demoSrt" class="button light">{{sample}} ↗</button><button id="demoVtt" class="button ghost">{{sampleVtt}}</button></div><button id="clear" class="button ghost">{{clear}}</button></div>
+<div class="workspace">
+<section class="card source-card" aria-labelledby="sourceTitle"><div class="card-heading"><span class="step">01</span><div><h2 id="sourceTitle">{{sourceTitle}}</h2><p>{{sourceNote}}</p></div></div>
+<label class="file-button" for="sourceFile"><span aria-hidden="true">↑</span>{{chooseSource}}<input id="sourceFile" type="file" accept=".srt,.vtt,text/vtt,application/x-subrip"></label>
+<label for="sourceText">{{pasteSource}}</label><textarea id="sourceText" spellcheck="false" placeholder="{{sourcePlaceholder}}" maxlength="2200000"></textarea>
+<div class="settings"><div><label for="targetLanguage">{{targetLabel}}</label><input id="targetLanguage" value="zh-CN" maxlength="80" aria-describedby="targetHint"><p id="targetHint">{{targetHint}}</p></div><div><label for="batchSize">{{sizeLabel}}</label><select id="batchSize" aria-describedby="sizeHint"><option>2</option><option>10</option><option selected>30</option><option>50</option><option>100</option></select><p id="sizeHint">{{sizeHint}}</p></div></div>
+<button id="prepare" class="button primary full">{{build}} <span aria-hidden="true">→</span></button>
+<p id="sourceStatus" class="status" role="status">{{sourceEmpty}}</p>
+<dl id="sourceStats" class="stats" hidden><div><dt>{{formatColumn}}</dt><dd id="formatStat"></dd></div><div><dt>{{cuesColumn}}</dt><dd id="cuesStat"></dd></div><div><dt>{{durationColumn}}</dt><dd id="durationStat"></dd></div></dl>
+</section>
+<section class="card batch-card" aria-labelledby="batchTitle"><div class="card-heading"><span class="step">02</span><div><h2 id="batchTitle">{{batchTitle}}</h2><p>{{batchNote}}</p></div></div>
+<label for="batchSelect">{{batchLabel}}</label><select id="batchSelect" disabled><option>{{emptyBatch}}</option></select>
+<label for="prompt">{{promptLabel}}</label><textarea id="prompt" readonly spellcheck="false" placeholder="{{promptPlaceholder}}"></textarea>
+<div class="button-row"><button id="copyPrompt" class="button primary" disabled>{{copyPrompt}}</button><button id="downloadPrompt" class="button light" disabled>{{downloadPrompt}}</button><button id="downloadJob" class="button ghost" disabled>{{downloadJob}}</button></div>
+<p class="notice">{{externalNotice}}</p><details id="fingerprintDetails" hidden><summary>{{batchIdentity}}</summary><code id="fingerprint"></code></details>
+</section>
+<section class="card response-card" aria-labelledby="responseTitle"><div class="card-heading"><span class="step">03</span><div><h2 id="responseTitle">{{responseTitle}}</h2><p>{{responseNote}}</p></div><span id="batchProgress" class="pill" aria-live="polite"></span></div>
+<div class="response-grid"><div><div class="response-actions"><label class="file-button small" for="responseFile">{{chooseResponse}}<input id="responseFile" type="file" accept=".json,application/json" disabled></label><button id="demoResponse" class="button ghost" disabled>{{demoResponse}}</button></div><p class="hint">{{demoNote}}</p><label for="response">{{responseLabel}}</label><textarea id="response" spellcheck="false" placeholder="{{responsePlaceholder}}" maxlength="4300000" disabled></textarea><div class="button-row"><button id="validate" class="button primary" disabled>{{validate}}</button><button id="saveResponse" class="button light" disabled>{{saveResponse}}</button></div><p class="hint">{{responseSavedHint}}</p></div>
+<div class="validation-panel"><p id="validationStatus" class="status" role="status"></p><ul id="errors" class="errors" aria-live="polite"></ul><p id="errorMore" class="hint" hidden>{{errorMore}}</p><div class="output-heading"><div><h3>{{exportTitle}}</h3><p>{{exportNote}}</p></div><button id="downloadOutput" class="button primary" disabled>{{downloadOutput}} ↓</button></div><label for="output">{{outputLabel}}</label><textarea id="output" readonly spellcheck="false" placeholder="{{previewNotReady}}"></textarea><p id="previewLimit" class="hint" hidden>{{previewLimit}}</p><p class="notice">{{reviewNotice}}</p></div></div>
+</section>
+</div>
+<p id="actionStatus" class="action-status" role="status"></p>
+<footer><div><strong>CueBridge</strong><p>{{footer}}</p></div><div><a href="{{docsUrl}}" target="_blank" rel="noopener noreferrer">{{docs}} ↗</a><a href="{{downloadUrl}}" download>{{offline}} ↓</a><p>{{privacy}}</p></div></footer>
+</main>
+<!-- SCRIPT -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+WEBVTT
+
+NOTE Fictional example, created for CueBridge.
+
+STYLE
+::cue { color: white; }
+
+intro
+00:01.000 --> 00:03.200 align:start
+A small tool, built for careful work.
+
+words
+00:03.500 --> 00:06.000
+<i>Translate the words.</i>
+Keep the timing.
+
+identity
+00:06.400 --> 00:09.100
+Every cue keeps its own ID.
+
+review
+00:09.500 --> 00:12.000
+Review the subtitles before sharing.

@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env*
+!.env.example
+private/
+output/
+*.srt
+*.vtt
+!examples/demo.srt
+!examples/demo.vtt
+*.pem
+*.key
