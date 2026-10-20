@@ -33,3 +33,4 @@ await writeFile(path.join(root, 'dist/.nojekyll'), '', 'utf8');
 await writeFile(path.join(root, 'examples/demo.srt'), DEMO_SRT, 'utf8');
 await writeFile(path.join(root, 'examples/demo.vtt'), DEMO_VTT, 'utf8');
 console.log('Built Chinese/English web pages and standalone HTML files. No runtime dependencies.');
+await import('./build-demo.mjs');

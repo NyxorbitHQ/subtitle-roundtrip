@@ -3,6 +3,7 @@
 [English](README.md) · [简体中文](README.zh-CN.md)
 
 - [Usage guide](USAGE.md)
+- [Demo and publishing assets](DEMO.md)
 - [Formats and protocol](FORMAT.md)
 - [Rationale and references](RESEARCH.md)
 - [Validation record](VALIDATION.md)

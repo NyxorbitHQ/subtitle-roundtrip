@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "projectId": "sha256:5ec17195a2aee6d3c35cff0b6c5b8d74201e286fd9c5ca56d4ca7a972a92cf17",
+  "source": "lesson.srt",
+  "targetLanguage": "zh-CN",
+  "batchSize": 2,
+  "cueCount": 4,
+  "durationSeconds": 40,
+  "provenance": "Fictional source and translations authored by the AI assistant in this task. Replies are saved fixtures, not live model calls or an external-provider integration test.",
+  "captureType": "Edited screenshots of actual browser interactions; not a continuous screen recording.",
+  "responses": [
+    {
+      "file": "batch-001.response.json",
+      "sha256": "26cde03a1229f02ec3000bfe5701c275fc07f35079f9e02dc66165285a205613"
+    },
+    {
+      "file": "batch-002.response.json",
+      "sha256": "097d1a829b33447eaff75b364e19a59fb3aa7d19107e1d03ebf2ca49883d1279"
+    }
+  ],
+  "assets": [
+    {
+      "file": "cuebridge-demo.en.gif",
+      "bytes": 157057,
+      "sha256": "0910036ad899ce420e44bd982a52f34e14b6c9b5ee9173a4c8dc8cfda83de2df"
+    },
+    {
+      "file": "cuebridge-demo.en.jpg",
+      "bytes": 75687,
+      "sha256": "635254eba675ba82a08016869c487381d44bd7defa17b929860f8aa604a0313c"
+    },
+    {
+      "file": "cuebridge-demo.en.mp4",
+      "bytes": 401802,
+      "sha256": "05a88a2e25e828a680d695c77720d1787e199f6271919ac625bfde0702f8918b"
+    },
+    {
+      "file": "cuebridge-demo.en.vtt",
+      "bytes": 879,
+      "sha256": "3b52030c573e2b3f67fd1baf3434cd37a44ee3ae6350c7c07bf6ce8813a5a870"
+    },
+    {
+      "file": "cuebridge-demo.zh-CN.gif",
+      "bytes": 141077,
+      "sha256": "374575a293c307c0723a19991592fb5c1586742f72089fab0424ea5b98a8c812"
+    },
+    {
+      "file": "cuebridge-demo.zh-CN.jpg",
+      "bytes": 71007,
+      "sha256": "a8f3bd0eeb4f9f98257fbe959b0182ba939e5b012f0c1615304a860189feaaab"
+    },
+    {
+      "file": "cuebridge-demo.zh-CN.mp4",
+      "bytes": 366709,
+      "sha256": "a858493606bfb6278962f3c90d35d5ee9436fa6649ca539591119b83cf18dfee"
+    },
+    {
+      "file": "cuebridge-demo.zh-CN.vtt",
+      "bytes": 941,
+      "sha256": "8598ad7e05157199e040483da97e094a74d0b36f58ab53c6accbdeef3b9e3c02"
+    }
+  ],
+  "outputSha256": "000f48ac19783519ced7a6844ee7b7aa5209716e016b8e6f01e710d9c799bd50"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "cuebridge/v1",
+  "projectId": "sha256:5ec17195a2aee6d3c35cff0b6c5b8d74201e286fd9c5ca56d4ca7a972a92cf17",
+  "batchId": "batch-001",
+  "targetLanguage": "zh-CN",
+  "entries": [
+    {
+      "id": "cue-000001",
+      "source": "Welcome to this short editing lesson.",
+      "translation": "欢迎观看这段简短的剪辑教程。"
+    },
+    {
+      "id": "cue-000002",
+      "source": "<i>Keep the original timing.</i>\r\nTranslate only the words.",
+      "translation": "<i>保留原有时间轴。</i>\n只翻译文字。"
+    }
+  ]
+}

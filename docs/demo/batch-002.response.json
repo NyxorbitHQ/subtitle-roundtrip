@@ -1,0 +1,18 @@
+{
+  "schema": "cuebridge/v1",
+  "projectId": "sha256:5ec17195a2aee6d3c35cff0b6c5b8d74201e286fd9c5ca56d4ca7a972a92cf17",
+  "batchId": "batch-002",
+  "targetLanguage": "zh-CN",
+  "entries": [
+    {
+      "id": "cue-000003",
+      "source": "Check every subtitle before you export.",
+      "translation": "导出之前，请逐条检查字幕。"
+    },
+    {
+      "id": "cue-000004",
+      "source": "Save your work, then review it in your player.",
+      "translation": "保存文件后，再用播放器复查。"
+    }
+  ]
+}
