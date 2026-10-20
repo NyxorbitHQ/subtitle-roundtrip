@@ -1,0 +1,16 @@
+1
+00:00:01,000 --> 00:00:04,000
+Welcome to this short editing lesson.
+
+2
+00:00:04,500 --> 00:00:08,000
+<i>Keep the original timing.</i>
+Translate only the words.
+
+3
+00:00:08,500 --> 00:00:12,000
+Check every subtitle before you export.
+
+4
+00:00:12,500 --> 00:00:16,000
+Save your work, then review it in your player.

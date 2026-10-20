@@ -21,6 +21,14 @@ The latest total and matrix results are recorded on the implementation PR. CI co
 - English and Chinese 390 × 844 responsive viewports had equal document client/scroll widths of 375. These are viewport checks, not physical-phone tests.
 - HTML-like source text remained text; no image or iframe nodes appeared. Warning/error console entries were empty during the checked flows.
 
+## Demo asset checks
+
+The separate demo uses four new fictional cues, not the built-in sample. Both interface languages were operated through the real file chooser. A missing-ID reply was rejected, 1 / 2 accepted batches kept export disabled, and 2 / 2 enabled the output. Sixteen full-page screenshots and their DOM crop rectangles are retained with the assets. Replies were authored by the AI assistant and saved before import; no external provider was called.
+
+Both silent H.264 videos were fully decoded without errors. Browser metadata reports 1280 × 720 and exactly 40 seconds for each. Representative import, error, success and final frames were visually inspected. English playback and seeking back to about 16 seconds worked through native controls. The downloaded English MP4 matched the source asset's SHA-256. Chinese playback was also checked. Demo-page warning/error logs were empty in the checked flow. Both languages at a 390 × 844 viewport had client/scroll widths of 375; these are viewport checks, not physical-phone tests.
+
+Local `npm run check` passed 25 tests, including fixture rejection, complete-output timing, media hashes, caption timing, language pairs, demo build/CSP and media serving with HEAD and single byte ranges. Normal builds need no video-authoring runtime. Remote matrix results belong to this demo PR. The demo page has not been deployed before merge.
+
 ## Limits
 
 No external AI was called; sample translations are predefined. Semantic accuracy, real-model compliance, subtitle reading speed and real-player rendering are unverified. Local HTTP preview was tested; direct `file://` execution is not claimed as browser-tested. Standalone structure is covered by build checks. Public deployment requires its own successful workflow and live checks after merge. No real subtitles or credentials were used.

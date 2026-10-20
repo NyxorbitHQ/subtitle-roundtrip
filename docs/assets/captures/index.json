@@ -1,0 +1,290 @@
+[
+  {
+    "lang": "zh-CN",
+    "step": 1,
+    "file": "zh-CN-01.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 675.2109375,
+      "width": 575.5,
+      "x": 48,
+      "y": 455.1953125
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "",
+      "progress": "已接受 0 / 2 批",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 2,
+    "file": "zh-CN-02.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 675.2109375,
+      "width": 575.5,
+      "x": 641.5,
+      "y": 455.1953125
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "",
+      "progress": "已接受 0 / 2 批",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 3,
+    "file": "zh-CN-03.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 74,
+      "y": 1243.0546875
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "本批译文已改变，需要重新校验。",
+      "progress": "已接受 0 / 2 批",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 4,
+    "file": "zh-CN-04.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1243.0546875
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "校验未通过：1 项问题，本批未被接受。",
+      "progress": "已接受 0 / 2 批",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 5,
+    "file": "zh-CN-05.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1243.0546875
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "本批校验通过，已保存到当前页面。",
+      "progress": "已接受 1 / 2 批",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 6,
+    "file": "zh-CN-06.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1243.0546875
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "已完成 4 条字幕回填；原编号、时间行与非正文内容均保留。",
+      "progress": "已接受 2 / 2 批",
+      "exportEnabled": true
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 7,
+    "file": "zh-CN-07.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 569.8203125,
+      "width": 1169,
+      "x": 48,
+      "y": 1148.40625
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "已完成 4 条字幕回填；原编号、时间行与非正文内容均保留。",
+      "progress": "已接受 2 / 2 批",
+      "exportEnabled": true
+    }
+  },
+  {
+    "lang": "zh-CN",
+    "step": 8,
+    "file": "zh-CN-08.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 239.5,
+      "width": 1169,
+      "x": 48,
+      "y": 90
+    },
+    "state": {
+      "sourceStatus": "已解析 4 条字幕，生成 2 个批次。",
+      "validationStatus": "已完成 4 条字幕回填；原编号、时间行与非正文内容均保留。",
+      "progress": "已接受 2 / 2 批",
+      "exportEnabled": true
+    }
+  },
+  {
+    "lang": "en",
+    "step": 1,
+    "file": "en-01.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 675.2109375,
+      "width": 575.5,
+      "x": 48,
+      "y": 475.3828125
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "",
+      "progress": "0 / 2 batches accepted",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "en",
+    "step": 2,
+    "file": "en-02.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 675.2109375,
+      "width": 575.5,
+      "x": 641.5,
+      "y": 475.3828125
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "",
+      "progress": "0 / 2 batches accepted",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "en",
+    "step": 3,
+    "file": "en-03.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 74,
+      "y": 1263.2421875
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "This response changed. Validate it again.",
+      "progress": "0 / 2 batches accepted",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "en",
+    "step": 4,
+    "file": "en-04.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1263.2421875
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "Validation failed: 1 issues. This batch was not accepted.",
+      "progress": "0 / 2 batches accepted",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "en",
+    "step": 5,
+    "file": "en-05.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1263.2421875
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "Batch accepted and retained in this page.",
+      "progress": "1 / 2 batches accepted",
+      "exportEnabled": false
+    }
+  },
+  {
+    "lang": "en",
+    "step": 6,
+    "file": "en-06.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 449.171875,
+      "width": 544.5,
+      "x": 646.5,
+      "y": 1263.2421875
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "4 cues restored. Original identifiers, timing lines and non-payload content are retained.",
+      "progress": "2 / 2 batches accepted",
+      "exportEnabled": true
+    }
+  },
+  {
+    "lang": "en",
+    "step": 7,
+    "file": "en-07.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 569.8203125,
+      "width": 1169,
+      "x": 48,
+      "y": 1168.59375
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "4 cues restored. Original identifiers, timing lines and non-payload content are retained.",
+      "progress": "2 / 2 batches accepted",
+      "exportEnabled": true
+    }
+  },
+  {
+    "lang": "en",
+    "step": 8,
+    "file": "en-08.jpg",
+    "geometry": {
+      "documentWidth": 1265,
+      "height": 259.6875,
+      "width": 1169,
+      "x": 48,
+      "y": 90
+    },
+    "state": {
+      "sourceStatus": "4 cues parsed into 2 batches.",
+      "validationStatus": "4 cues restored. Original identifiers, timing lines and non-payload content are retained.",
+      "progress": "2 / 2 batches accepted",
+      "exportEnabled": true
+    }
+  }
+]

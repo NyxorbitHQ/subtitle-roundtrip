@@ -1,6 +1,8 @@
 * text=auto eol=lf
 # Keep the synthetic CRLF fixture byte-exact, including its line terminators.
 examples/demo.srt -text -whitespace
+docs/demo/*.srt -text -whitespace
 *.png binary
 *.jpg binary
 *.gif binary
+*.mp4 binary

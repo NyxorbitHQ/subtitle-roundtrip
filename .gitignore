@@ -10,5 +10,9 @@ output/
 *.vtt
 !examples/demo.srt
 !examples/demo.vtt
+!docs/demo/lesson.srt
+!docs/demo/lesson.translated.srt
+!docs/assets/*.vtt
+!dist/media/*.vtt
 *.pem
 *.key

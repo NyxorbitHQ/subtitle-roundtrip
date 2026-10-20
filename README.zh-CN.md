@@ -8,7 +8,13 @@ CueBridge 是浏览器本地的翻译交接工具：按固定 ID 导出字幕批
 
 [中文应用](https://nyxorbithq.github.io/subtitle-roundtrip/) · [英文应用](https://nyxorbithq.github.io/subtitle-roundtrip/en.html) · [使用说明](docs/USAGE.zh-CN.md)
 
-首次上线需合并实现 PR、将 Pages 来源设为 GitHub Actions 并成功部署。在此之前可使用仓库内的单文件或本地预览。
+## 观看操作演示
+
+[40 秒演示与素材下载](docs/DEMO.zh-CN.md)
+
+![中文演示预览](docs/assets/cuebridge-demo.zh-CN.gif)
+
+真实界面截图剪辑，使用保存的 AI 编写回复，非实时模型调用。本次修改合并且 Pages 部署成功后，演示页才会上线。
 
 ## 体验完整流程
 
@@ -43,6 +49,6 @@ npm.cmd run check
 npm.cmd start
 ```
 
-打开打印的 `http://127.0.0.1:4180`。端口占用时使用 `npm.cmd start -- --port 4181`；macOS／Linux 将 `npm.cmd` 换成 `npm`。服务器只在本机提供四个构建后的 HTML 文件。修改 `src/` 后重新构建，连同 `dist/` 和虚构示例一起提交。CI 覆盖 Ubuntu／Windows、Node 20／22／24。
+打开打印的 `http://127.0.0.1:4180`。端口占用时使用 `npm.cmd start -- --port 4181`；macOS／Linux 将 `npm.cmd` 换成 `npm`。服务器只在本机提供固定白名单中的应用、演示页和媒体文件；MP4 支持单段字节范围请求以便跳转播放。修改 `src/` 后重新构建，连同 `dist/` 和虚构示例一起提交。CI 覆盖 Ubuntu／Windows、Node 20／22／24。
 
 [文档目录](docs/README.zh-CN.md) · [验证记录](docs/VALIDATION.zh-CN.md) · [贡献指南](CONTRIBUTING.zh-CN.md) · [MIT 许可证](LICENSE)

@@ -1,0 +1,33 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Import your subtitles
+Four fictional cues. Two translation batches.
+
+00:00:05.000 --> 00:00:10.000
+Take the prompt to your AI
+Stable IDs link every reply to its original subtitle.
+
+00:00:10.000 --> 00:00:15.000
+Bring the JSON back
+Import a saved AI-authored reply. The tool makes no model calls.
+
+00:00:15.000 --> 00:00:20.000
+A missing cue is blocked
+One ID was deliberately removed. Validation rejects this batch.
+
+00:00:20.000 --> 00:00:25.000
+One batch is not enough
+First batch accepted. Export stays locked at 1 / 2.
+
+00:00:25.000 --> 00:00:30.000
+Every batch must pass
+Both batches accepted. Original timing is retained.
+
+00:00:30.000 --> 00:00:35.000
+Download the result
+Save the translated SRT. Review it in your media player.
+
+00:00:35.000 --> 00:00:40.000
+Try CueBridge
+Open the free browser tool. Start with its built-in sample.

@@ -8,7 +8,13 @@ CueBridge is a browser-local translation handoff tool. It exports numbered batch
 
 [Chinese app](https://nyxorbithq.github.io/subtitle-roundtrip/) · [English app](https://nyxorbithq.github.io/subtitle-roundtrip/en.html) · [Usage guide](docs/USAGE.md)
 
-Public URLs require the first implementation PR to be merged, Pages to use GitHub Actions and a successful deployment. Until then, use the included standalone files or local preview.
+## Watch the workflow
+
+[40-second demo and downloads](docs/DEMO.md)
+
+![English demo preview](docs/assets/cuebridge-demo.en.gif)
+
+Edited UI screenshots using saved AI-authored replies; no live model call. The demo page deploys after this change is merged and Pages succeeds.
 
 ## Try the complete workflow
 
@@ -43,6 +49,6 @@ npm run check
 npm start
 ```
 
-In Windows PowerShell, use `npm.cmd`. Open the printed `http://127.0.0.1:4180`; another port: `npm start -- --port 4181`. The loopback server exposes only four built HTML files. Edit `src/`, rebuild and commit `dist/` plus synthetic examples. CI covers Ubuntu/Windows and Node 20/22/24.
+In Windows PowerShell, use `npm.cmd`. Open the printed `http://127.0.0.1:4180`; another port: `npm start -- --port 4181`. The loopback server exposes only allowlisted built app/demo pages and demo media; MP4 seeking supports single byte ranges. Edit `src/`, rebuild and commit `dist/` plus synthetic examples. CI covers Ubuntu/Windows and Node 20/22/24.
 
 [Documentation](docs/README.md) · [Validation](docs/VALIDATION.md) · [Contributing](CONTRIBUTING.md) · [MIT license](LICENSE)
