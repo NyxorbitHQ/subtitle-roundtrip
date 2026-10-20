@@ -1,0 +1,16 @@
+1
+00:00:01,000 --> 00:00:03,200
+A small tool, built for careful work.
+
+2
+00:00:03,500 --> 00:00:06,000
+<i>Translate the words.</i>
+Keep the timing.
+
+3
+00:00:06,400 --> 00:00:09,100
+Every cue keeps its own ID.
+
+4
+00:00:09,500 --> 00:00:12,000
+Review the subtitles before sharing.
